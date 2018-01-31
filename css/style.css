@@ -1,13 +1,40 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #363636;
   float: left;
   position: fixed;
   width: 100%;
+}
+
+figcaption {
+  font-size: 1em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1.5;
+  color: #144381;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #363636;
 }
 
 .logo {
@@ -21,16 +48,28 @@ nav {
 
 .medium-pic {
   width: 70%;
+  padding: inherit;
+  justify-content: center;
 }
 
 .left, .right {
   float: left;
   width: 50%;
+  text-decoration: none;
 }
 
 .right {
   float: right;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color: #ffffff;} /*unvisited*/
+a:visited { color: #d6d6d6;} /*visited*/
+a:hover { color: #749ebf;} /*hover*/
+a:active { color: #eeeeee;} /*selected*/
 
 ul {
   list-style-type: none;
@@ -44,6 +83,7 @@ li {
 
 article {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .container {
